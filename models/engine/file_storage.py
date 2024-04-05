@@ -1,3 +1,4 @@
+
 #!/usr/bin/python3
 """
 Contains the FileStorage class
@@ -68,3 +69,4 @@ class FileStorage:
     def close(self):
         """call reload() method for deserializing the JSON file to objects"""
         self.reload()
+
